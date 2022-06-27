@@ -75,13 +75,26 @@ a{
     align-items: center;
 }
 
-.sec1-boxes{
+.sec1-head{
+    font-size: 36px;
+    color: #1f2937;
+}
+
+/*.sec1-boxes{
     display: flex;
     list-style-type: none;
     margin: 0px;
     padding: 0px;
     gap: 8px;
+    
+    border-radius: 25px;
+    border-color: #3882f6;
+    border-style: solid;
 }
+
+#b1{
+    width: 250px;
+}*/
 
 .sec2{
     display: flex;
@@ -90,6 +103,22 @@ a{
     /*width: 600px;*/
     justify-content: center;
     flex-wrap:wrap;
+}
+
+.images-sec1{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+}
+ 
+#i1 , #i2, #i3, #i4{
+    width: 200px;
+}
+
+.img-subtitle{
+    display: flex;
+    justify-content: space-around;
+    gap: 42px;
 }
 
 .sec3{
