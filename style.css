@@ -96,15 +96,6 @@ a{
     width: 250px;
 }*/
 
-.sec2{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    /*width: 600px;*/
-    justify-content: center;
-    flex-wrap:wrap;
-}
-
 .images-sec1{
     display: flex;
     flex-wrap:wrap;
@@ -119,6 +110,15 @@ a{
     display: flex;
     justify-content: space-around;
     gap: 42px;
+}
+
+.sec2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*width: 600px;*/
+    justify-content: center;
+    flex-wrap:wrap;
 }
 
 .sec3{
