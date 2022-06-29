@@ -12,6 +12,8 @@ body{
     background-color: #1f2937;
     font-size: 18px;
     color: #e5e7eb;
+    justify-content: center;
+    padding: 20px;
 }
 
 .pt1{
@@ -105,12 +107,14 @@ a{
  
 #i1 , #i2, #i3, #i4{
     width: 200px;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .img-subtitle{
     display: flex;
     justify-content: space-around;
-    gap: 42px;
+    gap: 200px;
 }
 
 .sec2{
@@ -127,7 +131,7 @@ a{
     font-style: italic;
 
     margin: 0px;
-    padding: 200px;
+    padding: 100px;
 }
 .credit{
     display: flex;
@@ -170,7 +174,10 @@ a{
 
 .footer{
     display: flex;
-    margin-top: auto;
+    color: #f9faf8;
+    font-size: large;
+    padding: 20px;
+    margin: stretch;
     justify-content: center;
     align-items: center;
     background-color: #1f2937;
